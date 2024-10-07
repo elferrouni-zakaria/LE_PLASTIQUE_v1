@@ -1,0 +1,203 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    padding: 0;
+
+    background-image: linear-gradient(rgba(43, 58, 107, 0.5) 10%, rgba(0, 0, 0, 0.5) 70%), url(../img/imgempl.jpg);
+    align-items: center;
+    justify-content: center;
+
+    margin: auto 50px;
+}
+
+header {
+    background-color: #2b3a6b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px ;
+}
+
+.titreform{
+    text-align: center;
+    color: #2b3a6b;
+}
+
+.header-pres__title{
+
+    margin: 28px;
+    color: white;
+
+}
+
+p{
+    color: rgb(217, 202, 202);
+}
+
+header h1 {
+    margin: 0;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 1em 0;
+}
+
+.voir_profil{
+    color: #2b3a6b;
+    background-color: #fff;
+    border: 2px solid #2b3a6b;
+    border-radius: 13px;
+    padding: 1em;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+.voir_profil:hover{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 13px;
+
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+.deconnect{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 13px;
+    padding: 1em;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: .3s ease;
+}
+.deconnect:hover{
+    color: #2b3a6b;
+    background-color: #fff;
+    border: 2px solid #2b3a6b;
+    border-radius: 13px;
+
+    text-decoration: none;
+
+}
+    
+    .container{
+        width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.item{
+    background-color: #fff;
+    height: auto;
+
+    border-radius: 15px;
+    width: 100%;
+    
+}
+.item form{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.item form .heures{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 8em;
+}
+.semaine{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 7em;
+    padding-bottom: 2em;
+}
+.heure{
+    width: 50%;
+}
+.item h1{
+    color: #2b3a6b;
+    text-align: center;
+}
+.input{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    align-items: center;
+}
+.input .date input{
+    width: 50px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input input{
+    width: 50%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
+    transition: .3s ease;
+    margin: 10px 0;
+}
+
+img:hover{
+    transform: translateX(70px);
+    border: #1a253e 2px solid;
+    border-radius: 13px;
+
+}
+
+.btn{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.button-submit {
+    background-color: #2b3a6b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+
+.button-submit:hover {
+    background-color: #1a253e;
+}
+
+footer {
+    background-color: #2b3a6b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px 15px 0px 0px  ;
+}

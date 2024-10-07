@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    padding: 0;
+
+    background-image: linear-gradient(rgba(43, 58, 107, 0.5) 10%, rgba(0, 0, 0, 0.5) 70%), url(../img/background.jpg);
+    align-items: center;
+    justify-content: center;
+    margin: auto 50px;
+}
+
+header {
+    background-color: #2b3a6b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px ;
+}
+
+.titreform{
+    text-align: center;
+    color: #2b3a6b;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+main div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="date"], input[type="time"] {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.button-submit {
+    background-color: #2b3a6b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.button-submit:hover {
+    background-color: #1a253e;
+}
+
+footer {
+    background-color: #2b3a6b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px 15px 0px 0px  ;
+}

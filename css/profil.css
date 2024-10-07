@@ -1,0 +1,109 @@
+/* Styles généraux pour la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+    background-image: linear-gradient(rgba(43, 58, 107, 0.5)10%, rgba(0, 0, 0, 0.5)70%), url(../img/background.jpg);
+}
+
+/* Conteneur principal pour le formulaire */
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour le titre principal */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2b3a6b;
+}
+
+/* Style pour chaque groupe de formulaire */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Style pour les étiquettes des champs de formulaire */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2b3a6b;
+}
+
+/* Style pour les champs de texte, les sélections et les fichiers */
+.form-group input,
+.form-group select {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #2b3a6b;
+    border-radius: 5px;
+}
+
+/* Groupe de boutons (Modifier et Annuler) */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Style de base pour les boutons */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Style pour le bouton Modifier */
+.btn-primary {
+    background-color: #2b3a6b;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #2b3a6b;
+}
+
+/* Style pour le bouton Annuler */
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Conteneur pour le bouton de retour à la page d'accueil */
+.back-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style pour le bouton de retour à la page d'accueil */
+.btn-back {
+    width: 300px;
+    padding: 15px 5px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1px solid #2b3a6b;
+    background-color: #5a6268;
+    color: white;
+}
+
+.btn-back:hover {
+    background-color: #2b3a6b;
+    color: white;
+}

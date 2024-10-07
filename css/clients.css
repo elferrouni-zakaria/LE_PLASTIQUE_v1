@@ -1,0 +1,40 @@
+header{
+    background-image:linear-gradient(rgba(32, 31, 31, 0.5),rgba(0,0,0,0.5)), url(../img/img-cli.jpg);
+} 
+
+
+
+
+h1 {
+    color: #2b3a6b;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo-item {
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.logo-container>.logo-item>img:hover{
+    cursor:grab;
+}

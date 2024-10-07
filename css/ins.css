@@ -1,0 +1,98 @@
+/* css pour la form d'inscription */
+
+body{
+    background-image:linear-gradient(rgba(43, 58, 107, 0.5)10%,rgba(0, 0, 0, 0.5)70%),url(../img/background.jpg);
+/* css pour faire une combinision entre deux coleur */
+  
+}
+
+.donnerusrinsc {
+    font-family: Arial, sans-serif;
+     margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+
+}
+
+
+h2 {
+    text-align: center;
+    color: #2b3a6b;
+   background-color: white;
+   padding:10px;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   width: 625px;
+   text-align: center;
+   float: left;
+}
+
+img{
+    text-align: center;
+    color: #2b3a6b;
+   border-radius: 10px;
+   width: 650px;
+   height: 300px;
+   float: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #2b3a6b;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #2b3a6b;
+    color: white;
+    cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #334272;
+    color:#aeb3c5 ;
+}
+
+.seconect{
+
+    color: #2b3a6b;
+    text-decoration: none;
+}
+
+.seconect:hover{
+
+    color: #aeb3c5;
+}
+
+
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+}
+
+

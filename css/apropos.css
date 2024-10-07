@@ -1,0 +1,48 @@
+/* Style de l'en-tête de la page avec une image de fond */
+header {
+    background-image: linear-gradient(rgba(32, 31, 31, 0.5), rgba(0, 0, 0, 0.5)), url(../img/img-apropos.jpg);
+}
+
+/* Style pour le contenu principal de la section "À propos" */
+.content-apropos {
+    padding: 40px; /* Espacement intérieur autour du contenu */
+    text-align: center; /* Centrage du texte */
+}
+
+/* Style pour le titre "Notre Histoire" */
+#titre_histoire {
+    text-align: center; /* Centrage du texte */
+    color: white; /* Couleur du texte */
+}
+
+/* Style pour l'image de "Feu Abdeljalil Benamour" */
+.img-Abdeljalil-Benamour {
+    width: 700px; /* Largeur de l'image */
+    display: block; /* Affichage de l'image en bloc */
+    margin: 0 auto; /* Centrage de l'image */
+}
+
+/* Style pour le texte descriptif sous l'image de "Feu Abdeljalil Benamour" */
+.histle {
+    color: white; /* Couleur du texte */
+    text-align: center; /* Centrage du texte */
+}
+
+/* Style pour le titre "Présentation" */
+#titre_prese {
+    text-align: center; /* Centrage du texte */
+    color: white; /* Couleur du texte */
+}
+
+/* Style pour l'image de la présentation de "Le Plastique" */
+.img-presentatiion-leplastique {
+    width: 700px; /* Largeur de l'image */
+    display: block; /* Affichage de l'image en bloc */
+    margin: 0 auto; /* Centrage de l'image */
+}
+
+/* Style pour le texte descriptif sous l'image de présentation */
+.presenleplastique {
+    color: white; /* Couleur du texte */
+    text-align: center; /* Centrage du texte */
+}

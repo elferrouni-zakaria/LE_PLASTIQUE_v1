@@ -1,0 +1,186 @@
+/* Style global du body */
+body {
+    /* Image de fond avec dégradé */
+    background-image: linear-gradient(rgba(43, 58, 107, 0.5) 10%, rgba(0, 0, 0, 0.5) 70%), url(../img/background.jpg);
+    align-items: center;
+    justify-content: center;
+    margin: auto 50px;
+}
+
+/* Style de l'en-tête */
+header {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 150px;
+    padding-left: 20px;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+}
+
+/* Style spécifique du header avec une image de fond */
+.headerr {
+    background-image: linear-gradient(rgba(32, 31, 31, 0.5), rgba(0, 0, 0, 0.5)), url(../img/presentation.jpg);
+}
+
+/* Style de la liste de navigation */
+.ull {
+    margin-top: 40px;
+    margin-right: 50px;
+    padding: auto;
+    margin: auto;
+}
+
+/* Style des éléments de la liste */
+.lii {
+    margin: 5px;
+}
+
+/* Changement de couleur au survol */
+.ull .lii a:hover {
+    background-color: #2b3a6b;
+    color: white;
+}
+
+/* Alignement en ligne des éléments de la liste */
+.ull .lii {
+    display: inline-block;
+}
+
+/* Style des liens dans la liste */
+.ull .lii a {
+    color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/* Style pour l'élément actif de la liste */
+.ull .lii.active a {
+    color: white;
+}
+
+/* Style de la section de bienvenue */
+.contentbienvenue {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+/* Style du titre de bienvenue */
+.contentbienvenue h2 {
+    font-size: 50px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+    margin-top: 50px;
+}
+
+/* Style des boutons */
+.button {
+    width: 200px;
+    padding: 15px 0px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 1px solid #2b3a6b;
+    background-color: transparent;
+    color: white;
+}
+
+/* Changement de couleur au survol des boutons */
+.button:hover {
+    background-color: #2b3a6b;
+}
+
+/* Style du logo dans le footer */
+.logoplastique img {
+    width: 150px;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+/* Style de la barre de navigation */
+.navbar {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style du footer */
+.footer {
+    background-color: #2b3a6b;
+    color: white;
+    padding: 40px 0;
+    font-size: 14px;
+    border-radius: 20px 20px 0 0;
+}
+
+/* Organisation du contenu dans le footer */
+.bas {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+/* Style pour la section des contacts dans le footer */
+.donner-contact {
+    margin: 20px;
+}
+
+.donner-contact h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.donner-contact p,
+.footer__section ul {
+    color: white;
+}
+
+/* Style pour les liens de contact */
+.donner-contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.donner-contact ul li {
+    margin-bottom: 10px;
+}
+
+.donner-contact ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Changement de couleur au survol des liens */
+.donner-contact ul li a:hover {
+    color: gray;
+}
+
+/* Style du logo dans le footer */
+.logoplastique {
+    width: 120px;
+    height: auto;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Style pour le texte au bas du footer */
+.lesdroites {
+    text-align: center;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+/* Style des icônes */
+.icon-img {
+    width: 30px;
+    height: 30px;
+}
+
+
